@@ -28,8 +28,5 @@ The following libraries and packages are used in this project:
 - sklearn.tree import DecisionTreeClassifier
 - sklearn.ensemble import RandomForestClassifier
 
-Instructions for running on a local machine:
-
-1. Install the above mentioned libraries and packages on your machine with command line interface.
-2. In the terminal, use the command, "run app.py".
+This jupyter notebook works locally and on hosted notebook servers. Simply open the "Forecasting Churn of Customers - Telecom.ipynb" file. 
 
