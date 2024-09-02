@@ -30,3 +30,16 @@ The following libraries and packages are used in this project:
 
 This jupyter notebook works locally and on hosted notebook servers. Simply open the "Forecasting Churn of Customers - Telecom.ipynb" file. 
 
+Some EDA samples from time series analysis:
+![image](https://github.com/user-attachments/assets/4f77ae0b-1274-4a55-aa54-cc9b150c4601)
+![image](https://github.com/user-attachments/assets/3f50f5ba-97b7-40d4-9e2e-db771bddce30)
+
+Exploring relationships between features and customer subscriptions:
+![image](https://github.com/user-attachments/assets/96e9ac0f-b2e9-4106-be40-15680cc2c1e5)
+![image](https://github.com/user-attachments/assets/992e4380-4b14-4a0b-bfc7-7f1af6bb9356)
+![image](https://github.com/user-attachments/assets/dbc60ce7-51ac-4093-bb44-7db208dce231)
+
+Final Conclusions:
+The Random Forest model was able to achieve a ROC_AUC metric of 0.8195-0.8200 with a few different manual adjustments of the hyperparameters. The settings attempted based on the training set did no yield optimal results, suggesting overfitting of the model.
+
+Overall, the model was able to perform well given the small test set size of only 1798 samples. With SMOTE adjusting for class weight imbalance of the target variable, we were able to achieve satisfactory results in determining the likelihood of churn rate behavior among the customer database. Perhaps the model could be improved upon with a larger dataset over time. This metric was appropriate in determining the model's ability to predict customer behavior in how well it can distinguish between the positive and negative classes for true positive and false positive predictions of the churn rate.
