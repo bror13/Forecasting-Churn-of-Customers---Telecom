@@ -40,6 +40,6 @@ Exploring relationships between features and customer subscriptions:
 ![image](https://github.com/user-attachments/assets/dbc60ce7-51ac-4093-bb44-7db208dce231)
 
 Final Conclusions:
-The Random Forest model was able to achieve a ROC_AUC metric of 0.8195-0.8200 with a few different manual adjustments of the hyperparameters. The settings attempted based on the training set did no yield optimal results, suggesting overfitting of the model.
+The Random Forest model was able to achieve a ROC_AUC metric of 0.8195-0.8200 with a few different manual adjustments of the hyperparameters. The settings attempted based on the training set did not yield optimal results, suggesting overfitting of the model.
 
 Overall, the model was able to perform well given the small test set size of only 1798 samples. With SMOTE adjusting for class weight imbalance of the target variable, we were able to achieve satisfactory results in determining the likelihood of churn rate behavior among the customer database. Perhaps the model could be improved upon with a larger dataset over time. This metric was appropriate in determining the model's ability to predict customer behavior in how well it can distinguish between the positive and negative classes for true positive and false positive predictions of the churn rate.
